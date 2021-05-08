@@ -44,24 +44,28 @@
 
             <TextView
                 android:id="@+id/name_uz"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="end"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Aqsh Dollari"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
+                app:layout_constraintLeft_toRightOf="@id/name_uz1"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/code" />
 
             <TextView
                 android:id="@+id/name_uz1"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Valyuta nomi"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
                 app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/name_uz"
                 app:layout_constraintTop_toBottomOf="@id/code" />
 
             <TextView
